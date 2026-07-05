@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Background Colors */
+  --bg-abyss: #050507;
+  --bg-surface: #0A0A0F;
+  --bg-elevated: #11111A;
+
+  /* Surface Colors */
+  --surface-card: #11111A;
+  --surface-elevated: #1A1A25;
+
+  /* Border Colors */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.12);
+
+  /* Text Colors */
+  --text-primary: #F0F0F5;
+  --text-secondary: #8A8AA3;
+  --text-muted: #4A4A6A;
+
+  /* Accent Colors */
+  --accent-aether: #A88BFA;
+  --accent-elyos: #F0C75E;
+  --accent-asmodian: #5B9BD5;
+
+  /* State Colors */
+  --accent-danger: #E05260;
+  --accent-success: #4ADE80;
+  --accent-warning: #FBBF24;
+
+  /* Confidence Colors */
+  --confidence-official: #4ADE80;
+  --confidence-verified: #5B9BD5;
+  --confidence-community: #F0C75E;
+  --confidence-experimental: #FBBF24;
+  --confidence-obsolete: #E05260;
+
+  /* Role Colors */
+  --role-tank: #5B9BD5;
+  --role-healer: #4ADE80;
+  --role-dps: #E05260;
+  --role-support: #F0C75E;
+  --role-control: #A88BFA;
+
+  /* Region Colors */
+  --region-kr: #E05260;
+  --region-tw: #5B9BD5;
+  --region-global: #4ADE80;
+
+  /* Status Colors */
+  --status-live: #4ADE80;
+  --status-announced: #F0C75E;
+  --status-archived: #8A8AA3;
+
+  /* Stat Bar Colors */
+  --stat-1: #E05260;
+  --stat-2: #FBBF24;
+  --stat-3: #F0C75E;
+  --stat-4: #5B9BD5;
+  --stat-5: #4ADE80;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-abyss);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-muted) var(--bg-abyss);
+}
+
+body {
+  background-color: var(--bg-abyss);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(168, 139, 250, 0.3);
+  color: var(--text-primary);
+}
