@@ -6,6 +6,9 @@ import { sources } from "@/data/sources";
 import { statCaps, gearCategories } from "@/data/gear";
 import { classProfiles } from "@/data/classFinder";
 import { classRatings, getRatingKeys } from "@/data/class-ratings";
+import { plannerItems } from "@/data/build-planner/items";
+import { plannerSlots } from "@/data/build-planner/types";
+import type { PlannerStatKey } from "@/data/build-planner/types";
 
 // ── Schemas ──────────────────────────────────────────────────────
 
@@ -464,6 +467,64 @@ function validateRatings(): string[] {
   return errors;
 }
 
+// ── Validation: Build-Planner ────────────────────────────────────
+
+function validatePlannerItems(): string[] {
+  const errors: string[] = [];
+  const validSlots = new Set(plannerSlots);
+  const validClassIds = new Set(classes.map((c) => c.id));
+  const validPatchIds = new Set(patches.map((p) => p.id));
+  const validStatKeys = new Set<PlannerStatKey>([
+    "attack", "magicAttack", "crit", "accuracy", "defense",
+    "magicDefense", "hp", "mp", "movement", "cooldownReduction",
+  ]);
+  const validConfidences = new Set([
+    "official", "verified", "community-consensus", "experimental",
+  ]);
+  const seenIds = new Set<string>();
+
+  for (const item of plannerItems) {
+    // Eindeutige ID
+    if (seenIds.has(item.id)) {
+      errors.push(`Planner item duplicate id: ${item.id}`);
+    }
+    seenIds.add(item.id);
+
+    // Gueltiger Slot
+    if (!validSlots.has(item.slot)) {
+      errors.push(`Planner item ${item.id}: invalid slot '${item.slot}'`);
+    }
+
+    // classIds muessen existieren
+    if (item.classIds) {
+      for (const cid of item.classIds) {
+        if (!validClassIds.has(cid)) {
+          errors.push(`Planner item ${item.id}: classId '${cid}' does not exist`);
+        }
+      }
+    }
+
+    // patchId muss existieren
+    if (!validPatchIds.has(item.patchId)) {
+      errors.push(`Planner item ${item.id}: patchId '${item.patchId}' does not exist`);
+    }
+
+    // Stats muessen gueltige Keys haben
+    for (const statKey of Object.keys(item.stats)) {
+      if (!validStatKeys.has(statKey as PlannerStatKey)) {
+        errors.push(`Planner item ${item.id}: invalid stat key '${statKey}'`);
+      }
+    }
+
+    // Confidence muss gueltig sein
+    if (!validConfidences.has(item.confidence)) {
+      errors.push(`Planner item ${item.id}: invalid confidence '${item.confidence}'`);
+    }
+  }
+
+  return errors;
+}
+
 // ── Main validation ──────────────────────────────────────────────
 
 export function validateAllContent(): { valid: boolean; errors: string[] } {
@@ -478,6 +539,7 @@ export function validateAllContent(): { valid: boolean; errors: string[] } {
     ...validateBuildSourceIds(),
     ...validatePatchSourceIds(),
     ...validateRatings(),
+    ...validatePlannerItems(),
   ];
 
   return {

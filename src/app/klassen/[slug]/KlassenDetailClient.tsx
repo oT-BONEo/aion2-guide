@@ -181,6 +181,27 @@ export function KlassenDetailClient({
           <ConfidenceBadge status={cls.researchStatus} className="text-[10px]" />
         </motion.section>
 
+        {/* ── CTA: Build-Planner ──────────────────────────────── */}
+        <motion.section variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
+          <Link
+            href={`/build-planner/${cls.slug}/`}
+            className="flex items-center justify-between rounded-xl border border-[var(--accent-aether)]/30 bg-[var(--accent-aether)]/5 p-4 hover:bg-[var(--accent-aether)]/10 transition-colors group"
+          >
+            <div className="flex items-center gap-3">
+              <Wrench size={18} className="text-[var(--accent-aether)]" />
+              <div>
+                <span className="text-sm font-semibold text-[var(--accent-aether)] group-hover:underline">
+                  Build erstellen
+                </span>
+                <p className="text-xs text-[var(--text-muted)]">
+                  Gear-Planner für {cls.names.deProvisional}
+                </p>
+              </div>
+            </div>
+            <ChevronRight size={16} className="text-[var(--accent-aether)]" />
+          </Link>
+        </motion.section>
+
         {/* ── 3. "Für wen?" Section ───────────────────────────── */}
         <motion.section variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }}>
           <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] font-serif mb-4 flex items-center gap-2">
