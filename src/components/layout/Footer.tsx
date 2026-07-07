@@ -5,7 +5,7 @@ import Link from "next/link";
 const navLinks = [
   { href: "/klassen/", label: "Klassen" },
   { href: "/builds/", label: "Guides" },
-  { href: "/ausruestung/", label: "Ausr\u00fcstung" },
+  { href: "/ausruestung/", label: "Ausrüstung" },
   { href: "/methodik/", label: "Methodik" },
   { href: "/klassenfinder/", label: "Klassenfinder" },
   { href: "/patches/", label: "Patches" },
@@ -69,7 +69,7 @@ export function Footer() {
               Hinweis
             </h3>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-              A2 Klassenfinder ist ein Fan-Projekt zur Unterst\u00fctzung der
+              A2 Klassenfinder ist ein Fan-Projekt zur Unterstützung der
               Aion 2 Community. Alle Inhalte dienen rein informativen Zwecken.
             </p>
             <p className="mt-3 text-sm text-[var(--text-muted)] leading-relaxed">

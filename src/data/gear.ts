@@ -32,10 +32,10 @@ export interface StatCap {
 export const gearCategories: GearCategory[] = [
   {
     id: "leveling",
-    titleDe: "Leveling-Ausr\u00fcstung",
+    titleDe: "Leveling-Ausrüstung",
     titleEn: "Leveling Gear",
     description:
-      "Ausr\u00fcstung, die bis zum jeweils aktuellen Maximallevel gesammelt wird. Quest-Belohnungen, Dungeon-Drops und Mob-Drops.",
+      "Ausrüstung, die bis zum jeweils aktuellen Maximallevel gesammelt wird. Quest-Belohnungen, Dungeon-Drops und Mob-Drops.",
     items: [],
   },
   {
@@ -43,7 +43,7 @@ export const gearCategories: GearCategory[] = [
     titleDe: "Starter-Endgame",
     titleEn: "Starter Endgame",
     description:
-      "Erste Endgame-Ausr\u00fcstung ab dem jeweils aktuellen Maximallevel. Das Fundament f\u00fcr alle weiteren Gear-Pfade.",
+      "Erste Endgame-Ausrüstung ab dem jeweils aktuellen Maximallevel. Das Fundament für alle weiteren Gear-Pfade.",
     items: [],
   },
   {
@@ -51,7 +51,7 @@ export const gearCategories: GearCategory[] = [
     titleDe: "PvE-Fortschritt",
     titleEn: "PvE Progression",
     description:
-      "Fortgeschrittene PvE-Sets f\u00fcr Hard-Mode Dungeons und Raids. H\u00f6heres Item-Level und bessere Set-Boni.",
+      "Fortgeschrittene PvE-Sets für Hard-Mode Dungeons und Raids. Höheres Item-Level und bessere Set-Boni.",
     items: [],
   },
   {
@@ -59,7 +59,7 @@ export const gearCategories: GearCategory[] = [
     titleDe: "PvP-Fortschritt",
     titleEn: "PvP Progression",
     description:
-      "PvP-Sets f\u00fcr Abyss-K\u00e4mpfe, Belagerungen und Arena. Fokus auf PvP-Offensive und Defensive.",
+      "PvP-Sets für Abyss-Kämpfe, Belagerungen und Arena. Fokus auf PvP-Offensive und Defensive.",
     items: [],
   },
   {
@@ -67,15 +67,15 @@ export const gearCategories: GearCategory[] = [
     titleDe: "Handwerkssystem",
     titleEn: "Crafting System",
     description:
-      "Handwerksberufe f\u00fcr Ausr\u00fcstung, Verbrauchsg\u00fcter und Verzauberungen.",
+      "Handwerksberufe für Ausrüstung, Verbrauchsgüter und Verzauberungen.",
     items: [],
   },
   {
     id: "soul-imprint",
-    titleDe: "Seele-Pr\u00e4gung",
+    titleDe: "Seele-Prägung",
     titleEn: "Soul Imprint",
     description:
-      "Endgame-Verzauberungssystem f\u00fcr Level 50+ (Kapitel 1). Jede Ausr\u00fcstung kann mit Seelenpr\u00e4gungen verst\u00e4rkt werden.",
+      "Endgame-Verzauberungssystem für Level 50+ (Kapitel 1). Jede Ausrüstung kann mit Seelenprägungen verstärkt werden.",
     items: [],
   },
   {
@@ -83,7 +83,7 @@ export const gearCategories: GearCategory[] = [
     titleDe: "Manasteine",
     titleEn: "Manastones",
     description:
-      "Socket-System f\u00fcr Ausr\u00fcstung. Manasteine k\u00f6nnen in R\u00fcstung und Waffen gesockelt werden f\u00fcr zus\u00e4tzliche Werte.",
+      "Socket-System für Ausrüstung. Manasteine können in Rüstung und Waffen gesockelt werden für zusätzliche Werte.",
     items: [],
   },
   {
@@ -91,15 +91,15 @@ export const gearCategories: GearCategory[] = [
     titleDe: "Accessoires",
     titleEn: "Accessories",
     description:
-      "Ringe, Ohrringe, Halsketten und G\u00fcrtel. Unabh\u00e4ngig vom R\u00fcstungs-Set und wichtig f\u00fcr spezifische Stat-Kappen.",
+      "Ringe, Ohrringe, Halsketten und Gürtel. Unabhängig vom Rüstungs-Set und wichtig für spezifische Stat-Kappen.",
     items: [],
   },
   {
     id: "pendant",
-    titleDe: "Anh\u00e4nger-System",
+    titleDe: "Anhänger-System",
     titleEn: "Pendant System",
     description:
-      "Spezielles Anh\u00e4nger-System f\u00fcr z\u00e4tzliche passive Boni. Anh\u00e4nger k\u00f6nnen aufgewertet und verzaubert werden.",
+      "Spezielles Anhänger-System für zusätzliche passive Boni. Anhänger können aufgewertet und verzaubert werden.",
     items: [],
   },
   {
@@ -107,7 +107,7 @@ export const gearCategories: GearCategory[] = [
     titleDe: "Arcana-System",
     titleEn: "Arcana System",
     description:
-      "Neues System in Kapitel 1. Spezialkarten die in einen Arcana-Slot ausger\u00fcstet werden k\u00f6nnen f\u00fcr einzigartige Boni.",
+      "Neues System in Kapitel 1. Spezialkarten die in einen Arcana-Slot ausgerüstet werden können für einzigartige Boni.",
     items: [],
   },
 ];

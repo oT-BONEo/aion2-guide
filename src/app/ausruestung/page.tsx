@@ -50,7 +50,7 @@ const itemVariants: Variants = {
 
 export default function AusruestungPage() {
   return (
-    <PageLayout title="Ausr\u00fcstungs-Guide">
+    <PageLayout title="Ausrüstungs-Guide">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-16">
         {/* ── Intro ─────────────────────────────────────────── */}
         <motion.section variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
@@ -58,9 +58,9 @@ export default function AusruestungPage() {
             <div className="flex items-start gap-3">
               <BookOpen size={20} className="text-[var(--accent-aether)] mt-0.5 flex-shrink-0" />
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-                Dieser Bereich gibt einen \u00dcberblick \u00fcber das Ausr\u00fcstungssystem von AION 2.
+                Dieser Bereich gibt einen Überblick über das Ausrüstungssystem von AION 2.
                 Konkrete Farm-Routen, Drop-Chancen und Item-Listen folgen nach dem Global Release,
-                wenn sie aus dem Client oder belastbaren Quellen best\u00e4tigt werden.
+                wenn sie aus dem Client oder belastbaren Quellen bestätigt werden.
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function AusruestungPage() {
         {/* ── Gear Categories ───────────────────────────────── */}
         <motion.section variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] font-serif mb-6">
-            Ausr\u00fcstungs-Kategorien
+            Ausrüstungs-Kategorien
           </h2>
           <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true }}
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -112,8 +112,8 @@ export default function AusruestungPage() {
                 <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                   Die Gear-Kategorien basieren auf Quellen und Ingame-Referenzen.
                   Konkrete Item-Listen, Drop-Chancen und Farm-Routen werden nach dem
-                  Global Release erg\u00e4nzt, sobald sie aus dem Client oder belastbaren
-                  Quellen best\u00e4tigt werden.
+                  Global Release ergänzt, sobald sie aus dem Client oder belastbaren
+                  Quellen bestätigt werden.
                 </p>
               </div>
             </div>
@@ -166,8 +166,8 @@ export default function AusruestungPage() {
               Noch unsicher?
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-6 max-w-md mx-auto">
-              Finde die passende Klasse f\u00fcr deinen Spielstil und schaue sp\u00e4ter
-              wieder f\u00fcr detaillierte Ausr\u00fcstungs-Empfehlungen vorbei.
+              Finde die passende Klasse für deinen Spielstil und schaue später
+              wieder für detaillierte Ausrüstungs-Empfehlungen vorbei.
             </p>
             <Link href="/klassenfinder/"
               className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-[var(--accent-aether)] text-[var(--bg-abyss)] font-semibold text-sm hover:bg-[var(--accent-aether)]/90 transition-colors">

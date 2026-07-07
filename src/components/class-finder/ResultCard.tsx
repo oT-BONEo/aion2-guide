@@ -101,7 +101,7 @@ export function ResultCard({ result, rank }: ResultCardProps) {
       {/* Weakness */}
       <div className="px-5 pb-4">
         <h4 className="text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-2">
-          M\u00f6gliche Herausforderung
+          Mögliche Herausforderung
         </h4>
         <div className="flex items-start gap-2 text-sm">
           <AlertTriangle

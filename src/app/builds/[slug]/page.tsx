@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps) {
   const build = getBuildBySlug(slug);
   if (!build) return { title: "Build nicht gefunden" };
   return {
-    title: `${build.title} \u2013 AION 2 Klassenfinder`,
+    title: `${build.title} – AION 2 Klassenfinder`,
     description: build.overview,
   };
 }

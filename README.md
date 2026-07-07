@@ -83,14 +83,14 @@ Dies ist ein **Fan-Projekt** und steht in keiner Verbindung zu NCSOFT oder den o
 ### Schema anlegen
 
 ```bash
-# Migration: Schema anlegen (ungepoolte Verbindung fuer DDL)
+# Migration: Schema anlegen (ungepoolte Verbindung für DDL)
 psql $DATABASE_URL_UNPOOLED -f src/lib/db/schema.sql
 ```
 
 ### Umgebungsvariablen
 
-- `DATABASE_URL` – Runtime-Client (gepoolt, fuer App-Queries)
-- `DATABASE_URL_UNPOOLED` – Nur fuer Migrationen/Schema-Aenderungen
+- `DATABASE_URL` – Runtime-Client (gepoolt, für App-Queries)
+- `DATABASE_URL_UNPOOLED` – Nur fuer Migrationen/Schema-Änderungen
 - `COMMUNITY_BUILDS_WRITE_ENABLED` – `true` aktiviert Build-Einreichung (default: `false`)
 
 Lokal: `.env.local` anlegen (Vorlage in `.env.local.example`).

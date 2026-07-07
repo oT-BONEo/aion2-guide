@@ -298,9 +298,9 @@ function validateSources(): string[] {
 const SUPERLATIVE_BLACKLIST = [
   "bester",
   "beste",
-  "h\u00f6chster",
-  "h\u00f6chste",
-  "st\u00e4rkste",
+  "höchster",
+  "höchste",
+  "stärkste",
   "unverzichtbar",
   "dominant",
 ];

@@ -35,7 +35,7 @@ export function RatingGrid({ classRating, className }: RatingGridProps) {
         <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
           <span>Datenstand: {classRating.region} {classRating.patchId}</span>
           <span>·</span>
-          <span>Letzte Pruefung: {classRating.lastReviewedAt}</span>
+          <span>Letzte Prüfung: {classRating.lastReviewedAt}</span>
         </div>
 
         {sectionOrder.map((section) => (
@@ -60,8 +60,8 @@ export function RatingGrid({ classRating, className }: RatingGridProps) {
             <BarChart3 size={14} className="text-[var(--accent-warning)] mt-0.5 flex-shrink-0" />
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
               Alle Brawler-Bewertungen sind experimentell. Die Klasse ist seit
-              KR/TW Chapter 1 verfuegbar und es gibt noch keine stabilen Meta-Daten.
-              Jeder Wert kann sich nach weiteren Tests und dem Global Release aendern.
+              KR/TW Chapter 1 verfügbar und es gibt noch keine stabilen Meta-Daten.
+              Jeder Wert kann sich nach weiteren Tests und dem Global Release ändern.
             </p>
           </div>
         )}

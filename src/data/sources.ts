@@ -32,7 +32,7 @@ export const sources: Source[] = [
     language: "en",
     reliability: 5,
     lastChecked: "2026-07-03",
-    notes: "Offizielle Ank\u00FCndigung zum KR/TW-Launch.",
+    notes: "Offizielle Ankündigung zum KR/TW-Launch.",
   },
   {
     id: "aion2-official-kr",
@@ -76,7 +76,7 @@ export const sources: Source[] = [
     language: "en",
     reliability: 3,
     lastChecked: "2026-07-03",
-    notes: "Sekund\u00E4rquelle f\u00FCr Klassen-/Waffenzuordnung.",
+    notes: "Sekundärquelle für Klassen-/Waffenzuordnung.",
   },
 ];
 

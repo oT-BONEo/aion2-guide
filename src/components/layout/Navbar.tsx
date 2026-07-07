@@ -8,7 +8,7 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { href: "/klassen/", label: "Klassen" },
   { href: "/builds/", label: "Guides" },
-  { href: "/ausruestung/", label: "Ausr\u00fcstung" },
+  { href: "/ausruestung/", label: "Ausrüstung" },
   { href: "/methodik/", label: "Methodik" },
   { href: "/klassenfinder/", label: "Klassenfinder" },
   { href: "/patches/", label: "Patches" },
@@ -85,7 +85,7 @@ export function Navbar() {
             data-testid="mobile-menu-button"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2 text-[var(--text-secondary)] hover:text-[var(--accent-aether)] transition-colors"
-            aria-label={isMobileMenuOpen ? "Men\u00fc schlie\u00dfen" : "Men\u00fc \u00f6ffnen"}
+            aria-label={isMobileMenuOpen ? "Menü schließen" : "Menü öffnen"}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

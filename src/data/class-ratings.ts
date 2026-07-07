@@ -202,7 +202,7 @@ const sorcererRating: ClassRating = {
     teamPvp: r(5, "Im Team-PvP ist der Zauberer sehr stark. AoE-Schaden, Crowd-Control und Burst aus geschützter Position ermöglichen massive Wirkung mit Team-Cover.", "community-consensus", S_ALL),
     massPvp: r(5, "Im Mass-PvP ist der Zauberer innerhalb des Vergleichs sehr stark. AoE-Burst und Flaechen-CC sind in dichten Kämpfen extrem wirkungsvoll.", "community-consensus", S_ALL),
     mobility: r(2, "Die Mobilität ist im Vergleich eher niedrig. Zauberzeit erfordert Standhaftigkeit, Blink-Fähigkeiten bieten Ausweichoptionen mit Cooldown.", "community-consensus", S_A2HUB),
-    survivability: r(2, "Die Überlebensfähigkeit ist im Vergleich eher niedrig. Geringe Rüstung, Zauberzeit-Abhaengigkeit und niedrige Mobilität machen den Zauberer bei Nahkampf-Kontakt anfällig.", "community-consensus", S_A2HUB),
+    survivability: r(2, "Die Überlebensfähigkeit ist im Vergleich eher niedrig. Geringe Rüstung, Zauberzeit-Abhängigkeit und niedrige Mobilität machen den Zauberer bei Nahkampf-Kontakt anfällig.", "community-consensus", S_A2HUB),
     gearDependency: r(4, "Die Ausrüstungsabhängigkeit ist eher hoch. Magischer Angriff, Zaubergeschwindigkeit und kritische Treffer skalieren stark mit Gear-Qualität.", "community-consensus", S_A2HUB),
     groupUtility: r(3, "Der Gruppennutzen ist moderat. Crowd-Control und hoher Schaden sind wertvoll, aber dedizierte Buffs oder Heilung bietet der Zauberer nicht.", "community-consensus", S_A2HUB),
   },

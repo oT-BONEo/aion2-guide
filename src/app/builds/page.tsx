@@ -41,7 +41,7 @@ const purposeLabels: Record<string, string> = {
   "pve-tank": "PvE Tank",
   "pve-support": "PvE Support",
   "pvp-small": "PvP (klein)",
-  "pvp-large": "PvP (gro\u00df)",
+  "pvp-large": "PvP (groß)",
   hybrid: "Hybrid",
 };
 
@@ -103,7 +103,7 @@ function PatchStatusBanner() {
           <div className="flex items-center gap-2">
             <span className="h-2.5 w-2.5 rounded-full bg-[var(--accent-warning)]" />
             <span className="text-xs text-[var(--text-secondary)]">
-              Angek\u00fcndigt:{" "}
+              Angekündigt:{" "}
               <span className="font-medium text-[var(--text-primary)]">
                 {upcomingPatch.title}
               </span>{" "}
@@ -190,7 +190,7 @@ export default function BuildsPage() {
                 onClick={handleResetFilters}
                 className="ml-auto text-xs text-[var(--text-muted)] hover:text-[var(--accent-aether)] transition-colors"
               >
-                Zur\u00fccksetzen
+                Zurücksetzen
               </button>
             )}
           </div>
@@ -329,15 +329,15 @@ export default function BuildsPage() {
                 Keine Builds gefunden
               </h3>
               <p className="text-sm text-[var(--text-muted)] max-w-md mb-6">
-                Versuche es mit anderen Filtern oder schau sp\u00e4ter wieder vorbei.
-                Wir f\u00fcgen laufend neue Builds hinzu.
+                Versuche es mit anderen Filtern oder schau später wieder vorbei.
+                Wir fügen laufend neue Builds hinzu.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <button
                   onClick={handleResetFilters}
                   className="px-4 py-2.5 rounded-lg border border-[var(--border-subtle)] text-sm text-[var(--text-secondary)] hover:border-[var(--accent-aether)]/50 hover:text-[var(--accent-aether)] transition-all"
                 >
-                  Filter zur\u00fccksetzen
+                  Filter zurücksetzen
                 </button>
                 <Link
                   href="/klassenfinder/"

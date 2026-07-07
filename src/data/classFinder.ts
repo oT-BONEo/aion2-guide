@@ -315,7 +315,7 @@ export const classProfiles: ClassProfile[] = [
     },
     matchReasons: [
       "klassischer Tank-Fokus mit starker defensiver Gruppennische",
-      "in Gruppencontent voraussichtlich h\u00e4ufig gefragt",
+      "in Gruppencontent voraussichtlich häufig gefragt",
       "Gute Überlebensfähigkeit",
     ],
     weakness: "Langsame Mobilität und langsames Solo-Leveling",
@@ -350,10 +350,10 @@ export const classProfiles: ClassProfile[] = [
       gearTolerance: 9,
     },
     matchReasons: [
-      "starker Burst-Fokus bei guter Ausr\u00fcstung und sauberem Timing",
+      "starker Burst-Fokus bei guter Ausrüstung und sauberem Timing",
       "Stealth-orientierter Spielstil",
       "hohe Mobilität im Nahkampf",
-      "kann in kleinen PvP-Situationen stark sein, abh\u00e4ngig von Matchup und Patchstand",
+      "kann in kleinen PvP-Situationen stark sein, abhängig von Matchup und Patchstand",
     ],
     weakness: "Sehr gear-abhängig und geringe PvP-Nutzen in großen Kämpfen",
   },
@@ -389,7 +389,7 @@ export const classProfiles: ClassProfile[] = [
     matchReasons: [
       "starker AoE- und Burst-Fokus",
       "Kontrollfähigkeiten (CC)",
-      "in organisierten Gruppen voraussichtlich n\u00fctzlich",
+      "in organisierten Gruppen voraussichtlich nützlich",
     ],
     weakness: "Sehr geringe Mobilität und fragil (wenig HP/Defense)",
   },
@@ -406,8 +406,8 @@ export const classProfiles: ClassProfile[] = [
     },
     matchReasons: [
       "klarer Hauptheiler-Fokus",
-      "voraussichtlich h\u00e4ufig nachgefragt in Dungeons und Raids",
-      "in Raids voraussichtlich n\u00fctzlich, wenn Gruppenstabilit\u00e4t wichtig ist",
+      "voraussichtlich häufig nachgefragt in Dungeons und Raids",
+      "in Raids voraussichtlich nützlich, wenn Gruppenstabilität wichtig ist",
     ],
     weakness: "Langsames Solo-Leveling und abhängig von Gruppe",
   },

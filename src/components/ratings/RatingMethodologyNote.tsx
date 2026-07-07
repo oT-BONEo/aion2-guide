@@ -25,7 +25,7 @@ export function RatingMethodologyNote({ className }: RatingMethodologyNoteProps)
           <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1">Relative Skala</h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
             5/5 bedeutet stark im Vergleich der aktuellen neun Klassen, nicht
-            objektiv perfekt. Die Skala passt sich bei Meta-Aenderungen an.
+            objektiv perfekt. Die Skala passt sich bei Meta-Änderungen an.
           </p>
         </div>
 
@@ -45,10 +45,10 @@ export function RatingMethodologyNote({ className }: RatingMethodologyNoteProps)
           <div className="w-10 h-10 rounded-lg bg-[var(--accent-asmodian)]/10 flex items-center justify-center mb-3">
             <Globe size={20} className="text-[var(--accent-asmodian)]" />
           </div>
-          <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1">Vorlaeufiger Datenstand</h3>
+          <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1">Vorläufiger Datenstand</h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
             Alle Bewertungen basieren auf dem KR/TW-Datenstand. Nach dem
-            Global Release werden sie mit lokalen Tests ueberprueft und
+            Global Release werden sie mit lokalen Tests überprüft und
             angepasst.
           </p>
         </div>
