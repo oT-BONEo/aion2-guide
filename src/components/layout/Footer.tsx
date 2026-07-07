@@ -65,7 +65,7 @@ export function Footer() {
 
           {/* Column 3: Disclaimer */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-4 whitespace-nowrap">
               Daevas Guidance
             </h3>
             <p className="text-sm text-[var(--accent-aether)] font-medium mb-1">
@@ -85,7 +85,7 @@ export function Footer() {
         {/* Bottom: Copyright */}
         <div className="mt-12 pt-8 border-t border-[var(--border-subtle)] text-center">
           <p className="text-xs text-[var(--text-muted)]">
-            © {currentYear} Daevas Guidance. From Daevas, for Daevas.
+            © {currentYear} <span className="whitespace-nowrap">Daevas Guidance</span>. From Daevas, for Daevas.
             Fan-Projekt ohne kommerzielle Absichten.
           </p>
         </div>

@@ -156,14 +156,14 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm uppercase tracking-[0.2em] text-[var(--accent-aether)] font-medium mb-3">
+            <h1 className="whitespace-nowrap font-serif font-bold leading-tight text-[var(--text-primary)] text-[clamp(2.1rem,10vw,4.5rem)]">
               Daevas Guidance
-            </p>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[var(--text-primary)] font-serif leading-tight">
-              Vorbereitung für die Reise nach Atreia
             </h1>
-            <p className="mt-3 text-base sm:text-lg text-[var(--accent-elyos)] font-medium max-w-2xl mx-auto">
+            <p className="mt-3 text-base sm:text-lg text-[var(--accent-elyos)] font-semibold max-w-2xl mx-auto">
               From Daevas, for Daevas.
+            </p>
+            <p className="mt-3 text-sm sm:text-base text-[var(--text-primary)] font-medium max-w-2xl mx-auto">
+              Vorbereitung für die Reise nach Atreia
             </p>
             <p className="mt-4 text-sm sm:text-base text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed">
               Inoffizieller AION-2-Guide mit Klassenübersichten, Build-Planner,
