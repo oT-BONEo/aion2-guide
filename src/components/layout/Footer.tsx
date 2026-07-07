@@ -66,14 +66,17 @@ export function Footer() {
           {/* Column 3: Disclaimer */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-4">
-              Hinweis
+              Daevas Guidance
             </h3>
+            <p className="text-sm text-[var(--accent-aether)] font-medium mb-1">
+              From Daevas, for Daevas.
+            </p>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-              A2 Klassenfinder ist ein Fan-Projekt zur Unterstützung der
-              Aion 2 Community. Alle Inhalte dienen rein informativen Zwecken.
+              Ein inoffizielles Fan-Projekt zur Unterstützung der
+              AION-2-Community. Alle Inhalte dienen rein informativen Zwecken.
             </p>
             <p className="mt-3 text-sm text-[var(--text-muted)] leading-relaxed">
-              Nicht mit NCSOFT verbunden. Aion ist ein eingetragenes Warenzeichen
+              Nicht mit NCSOFT verbunden. AION ist ein eingetragenes Warenzeichen
               von NCSOFT Corporation.
             </p>
           </div>
@@ -82,8 +85,8 @@ export function Footer() {
         {/* Bottom: Copyright */}
         <div className="mt-12 pt-8 border-t border-[var(--border-subtle)] text-center">
           <p className="text-xs text-[var(--text-muted)]">
-            &copy; {currentYear} A2 Klassenfinder. Fan-Projekt ohne
-            kommerzielle Absichten.
+            © {currentYear} Daevas Guidance. From Daevas, for Daevas.
+            Fan-Projekt ohne kommerzielle Absichten.
           </p>
         </div>
       </div>

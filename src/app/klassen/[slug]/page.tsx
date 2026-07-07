@@ -18,10 +18,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const cls = getClassBySlug(slug);
   if (!cls)
     return {
-      title: "Klasse nicht gefunden – AION 2 Klassenfinder",
+      title: "Klasse nicht gefunden – Daevas Guidance",
     };
   return {
-    title: `${cls.names.deProvisional} – AION 2 Klassenfinder`,
+    title: `${cls.names.deProvisional} – Daevas Guidance`,
     description: cls.summary,
   };
 }

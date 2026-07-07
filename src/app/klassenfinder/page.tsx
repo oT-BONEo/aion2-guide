@@ -190,7 +190,7 @@ export default function KlassenfinderPage() {
             </h1>
           </div>
           <p className="text-[var(--text-secondary)] text-sm sm:text-base max-w-lg mx-auto">
-            Beantworte 7 Fragen &ndash; wir zeigen dir die 3 passendsten Klassen.
+            Beantworte 7 Fragen – wir zeigen dir die 3 passendsten Klassen.
           </p>
         </motion.div>
 

@@ -181,7 +181,7 @@ export function ClassFilters({ filters, onChange }: ClassFiltersProps) {
           className="flex items-center gap-2 text-xs text-[var(--text-muted)] hover:text-[var(--accent-aether)] transition-colors"
         >
           <RotateCcw size={12} />
-          Zur&uuml;cksetzen
+          Zurücksetzen
         </button>
       )}
     </div>

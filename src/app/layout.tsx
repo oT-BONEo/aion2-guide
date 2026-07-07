@@ -10,13 +10,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AION 2 Guide-Hub",
+  title: "Daevas Guidance",
   description:
-    "Deutschsprachiger Vorab-Hub für AION 2: Klassenvergleich, PvE/PvP-Bewertungen, Gear-Fahrpläne und Guides mit transparentem KR/TW-Datenstand.",
+    "Inoffizieller AION-2-Guide mit Klassenübersichten, Build-Planner, Patch-Kontext und transparenter Quellenbasis. From Daevas, for Daevas.",
   openGraph: {
-    title: "AION 2 Guide-Hub",
+    title: "Daevas Guidance",
     description:
-      "Deutschsprachiger Vorab-Hub für AION 2: Klassenvergleich, PvE/PvP-Bewertungen, Gear-Fahrpläne und Guides mit transparentem KR/TW-Datenstand.",
+      "Inoffizieller AION-2-Guide mit Klassenübersichten, Build-Planner, Patch-Kontext und transparenter Quellenbasis.",
     images: ["/og-default.jpg"],
   },
 };

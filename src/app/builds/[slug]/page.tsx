@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps) {
   const build = getBuildBySlug(slug);
   if (!build) return { title: "Build nicht gefunden" };
   return {
-    title: `${build.title} – AION 2 Klassenfinder`,
+    title: `${build.title} – Daevas Guidance`,
     description: build.overview,
   };
 }
@@ -184,7 +184,7 @@ export default async function BuildDetailPage({ params }: PageProps) {
               >
                 {cls.names.deProvisional}
               </Link>
-              {" "}&middot;{" "}
+              {" "}·{" "}
               <span className="text-[var(--text-secondary)]">
                 {purposeLabels[build.purpose] ?? build.purpose}
               </span>
@@ -261,7 +261,7 @@ export default async function BuildDetailPage({ params }: PageProps) {
                 </span>
                 <span className="text-sm text-[var(--text-primary)]">
                   {experienceLabels[build.audience.experience] ?? build.audience.experience}
-                  {" "}&middot;{" "}
+                  {" "}·{" "}
                   {gearTierLabels[build.audience.gearTier] ?? build.audience.gearTier}
                 </span>
               </div>

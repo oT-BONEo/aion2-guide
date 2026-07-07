@@ -1,4 +1,4 @@
--- AION 2 Guide-Hub – Datenbankschema
+-- Daevas Guidance – Datenbankschema
 -- Fuer Neon Serverless Postgres
 --
 -- Ausfuehrung: psql $DATABASE_URL_UNPOOLED -f src/lib/db/schema.sql

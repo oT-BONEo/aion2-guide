@@ -168,7 +168,7 @@ export default function BuildsPage() {
   };
 
   return (
-    <PageLayout title="Builds &amp; Guides">
+    <PageLayout title="Builds & Guides">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         {/* Patch status banner */}
         <PatchStatusBanner />

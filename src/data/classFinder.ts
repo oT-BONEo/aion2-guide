@@ -1,4 +1,4 @@
-// AION 2 Klassenfinder
+// Daevas Guidance
 // Interactive questionnaire + class matching engine
 
 import { classes } from "./classes";

@@ -156,11 +156,18 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
+            <p className="text-sm uppercase tracking-[0.2em] text-[var(--accent-aether)] font-medium mb-3">
+              Daevas Guidance
+            </p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[var(--text-primary)] font-serif leading-tight">
-              AION 2 Guides, Klassenvergleich und Gear-Fahrpl&auml;ne
+              Vorbereitung für die Reise nach Atreia
             </h1>
-            <p className="mt-6 text-base sm:text-lg text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed">
-              Deutschsprachiger Vorab-Hub f&uuml;r Klassen, Rollen, PvE/PvP-Einsch&auml;tzungen und Ausr&uuml;stungswege &ndash; mit sichtbarem KR/TW-Datenstand statt pauschaler Tier-List.
+            <p className="mt-3 text-base sm:text-lg text-[var(--accent-elyos)] font-medium max-w-2xl mx-auto">
+              From Daevas, for Daevas.
+            </p>
+            <p className="mt-4 text-sm sm:text-base text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed">
+              Inoffizieller AION-2-Guide mit Klassenübersichten, Build-Planner,
+              Ausrüstung und Patch-Kontext – quellenbasiert und transparent.
             </p>
           </motion.div>
           <motion.div
@@ -174,7 +181,7 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-[var(--border-default)] text-[var(--text-primary)] font-semibold text-sm hover:border-[var(--accent-aether)]/50 hover:text-[var(--accent-aether)] transition-colors"
             >
               <Gamepad2 size={18} />
-              Klassen vergleichen
+              Klassen erkunden
             </Link>
             <Link
               href="/builds/"
@@ -209,13 +216,13 @@ export default function HomePage() {
       <section className="border-b border-[var(--border-subtle)] bg-[var(--bg-surface)] px-4 py-3 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
           <p className="text-xs sm:text-sm text-[var(--text-muted)]">
-            Datenstand: KR/TW Chapter 1 &middot; Patch 01.07.2026 &middot; Global Release September 2026 angek&uuml;ndigt &middot; Deutsche Namen: vorl&auml;ufig
+            Datenstand: KR/TW Chapter 1 · Patch 01.07.2026 · Global Release September 2026 angekündigt · Deutsche Namen: vorläufig
           </p>
           <Link
             href="/methodik/"
             className="text-xs sm:text-sm text-[var(--accent-aether)] hover:underline whitespace-nowrap"
           >
-            Was bedeutet dieser Datenstand? &rarr;
+            Was bedeutet dieser Datenstand? →
           </Link>
         </div>
       </section>
@@ -231,10 +238,11 @@ export default function HomePage() {
         >
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] font-serif">
-              Klassenvergleich nach Rollen und Modi
+              Neun Pfade, eine Wahl
             </h2>
             <p className="mt-2 text-[var(--text-secondary)] text-sm max-w-2xl mx-auto">
-              Relative Bewertungen im aktuellen KR/TW-Datenstand. Jeder Wert ist vergleichend innerhalb der neun Klassen zu verstehen.
+              Vergleiche alle Klassen nach Rolle, Schwierigkeit und Content-Stärke
+              – mit transparentem Datenstand aus KR/TW.
             </p>
           </div>
           <ClassComparisonTable ratings={classRatings} />
@@ -260,10 +268,10 @@ export default function HomePage() {
         >
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] font-serif">
-              Aktuelle Guide-Schwerpunkte
+              Aktuelle Schwerpunkte
             </h2>
             <p className="mt-2 text-[var(--text-secondary)] text-sm">
-              Die ersten detaillierten Entw&uuml;rfe &ndash; basierend auf KR/TW-Chapter-1-Daten
+              Die ersten detaillierten Entwürfe – basierend auf KR/TW-Chapter-1-Daten
             </p>
           </div>
           <motion.div
@@ -325,7 +333,7 @@ export default function HomePage() {
         </motion.div>
       </section>
 
-      {/* ── 6. Klassenfinder (sekund&auml;r) ────────────────── */}
+      {/* ── 6. Klassenfinder (sekundär) ────────────────── */}
       <section className="py-20 px-4 sm:px-6 bg-[var(--bg-surface)]">
         <motion.div
           variants={sectionVariants}
@@ -367,7 +375,7 @@ export default function HomePage() {
               Alle 9 Klassen
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              W&auml;hle eine Klasse f&uuml;r Details, Builds und Bewertungen
+              Wähle eine Klasse für Details, Builds und Bewertungen
             </p>
           </div>
           <motion.div
@@ -401,7 +409,7 @@ export default function HomePage() {
                 Vorgestellte Builds
               </h2>
               <p className="mt-1 text-[var(--text-secondary)] text-sm">
-                Aktuelle Entw&uuml;rfe &ndash; Community-gepr&uuml;ft
+                Aktuelle Entwürfe – Community-geprüft
               </p>
             </div>
             <Link
@@ -460,7 +468,7 @@ export default function HomePage() {
       <section className="border-t border-[var(--border-subtle)] px-4 py-8 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-            Alle Bewertungen sind vorl&auml;ufige Einsch&auml;tzungen auf Basis des KR/TW-Datenstands. Sie werden nach dem Global Release &uuml;berpr&uuml;ft und angepasst.
+            Alle Bewertungen sind vorläufige Einschätzungen auf Basis des KR/TW-Datenstands. Sie werden nach dem Global Release überprüft und angepasst.
           </p>
         </div>
       </section>

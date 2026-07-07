@@ -52,10 +52,10 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex flex-col items-start leading-tight">
             <span className="font-serif text-2xl font-bold text-[var(--accent-aether)] tracking-wide">
-              A2
+              Daevas
             </span>
-            <span className="text-[10px] uppercase tracking-[0.2em] text-[var(--text-muted)]">
-              Klassenfinder
+            <span className="text-[10px] uppercase tracking-[0.15em] text-[var(--text-muted)]">
+              Guidance
             </span>
           </Link>
 

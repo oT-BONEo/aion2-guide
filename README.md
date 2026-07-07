@@ -1,6 +1,6 @@
-# AION 2 Klassenfinder
+# Daevas Guidance
 
-Ein interaktiver Klassenfinder und Guide für AION 2. Finde die passende AION-2-Klasse und vergleiche versionierte PvE-, PvP- und Ausrüstungs-Guides.
+Daevas Guidance – inoffizieller AION-2-Guide. Finde die passende AION-2-Klasse und vergleiche versionierte PvE-, PvP- und Ausrüstungs-Guides.
 
 ## Hinweis zu Tests
 

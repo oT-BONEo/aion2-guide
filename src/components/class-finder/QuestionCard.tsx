@@ -113,7 +113,7 @@ export function QuestionCard({
             )}
           >
             <ArrowLeft size={16} />
-            Zur&uuml;ck
+            Zurück
           </button>
 
           <button
